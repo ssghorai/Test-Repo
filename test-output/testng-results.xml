@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22758" started-at="2020-04-29T05:40:34Z" finished-at="2020-04-29T05:40:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22758" started-at="2020-04-29T05:40:34Z" finished-at="2020-04-29T05:40:57Z">
+      <class name="TestCases.HomePageTest">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:TestCases.HomePageTest@cb5822]" name="openbrowser" is-config="true" duration-ms="17007" started-at="2020-04-29T11:10:34Z" finished-at="2020-04-29T11:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="FAIL" signature="loginmenutest()[pri:0, instance:TestCases.HomePageTest@cb5822]" name="loginmenutest" duration-ms="4123" started-at="2020-04-29T11:10:51Z" finished-at="2020-04-29T11:10:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This is not the Login Page. expected [Sign In to your Account] but found [Sign In to your account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This is not the Login Page. expected [Sign In to your Account] but found [Sign In to your account]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at TestCases.HomePageTest.loginmenutest(HomePageTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmenutest -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:TestCases.HomePageTest@cb5822]" name="closewindow" is-config="true" duration-ms="1572" started-at="2020-04-29T11:10:55Z" finished-at="2020-04-29T11:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- TestCases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
